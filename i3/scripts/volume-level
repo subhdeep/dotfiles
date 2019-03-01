@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+LEVEL=$(pulseaudio-ctl full-status| cut -d ' ' -f1)
+echo $LEVEL
+echo $LEVEL
+test=$(pulseaudio-ctl full-status| cut -d ' ' -f2)
+if [ $test = "yes" ]; then
+  echo "#ff0000"
+else
+  echo "#ffffff"
+fi

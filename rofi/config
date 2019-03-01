@@ -1,0 +1,12 @@
+! Rofi
+rofi.font: SourceCodePro Semibold 12
+rofi.padding: 20x
+rofi.line-padding: 2
+rofi.color-enabled: true
+rofi.hide-scrollbar: true
+rofi.separator-style: solid
+rofi.color-window: #161711, #161711
+rofi.color-normal: #000, #444, #000, #000, #fff
+rofi.color-urgent: argb:00000000, #f8f8f2, argb:00000000, argb:00000000, #f8f8f2
+rofi.color-active: argb:00000000, #f8f8f2, argb:00000000, argb:00000000, #f8f8f2
+

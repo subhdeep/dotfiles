@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+NAME=$(nmcli | grep "wlp5s0: connected to .*" | sed -E "s/wlp5s0: connected to (.*)/\1/")
+echo $NAME
+echo $NAME
+echo "#ffffff"
